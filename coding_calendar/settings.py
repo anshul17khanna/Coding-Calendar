@@ -13,6 +13,7 @@ BOT_NAME = 'coding_calendar'
 
 SPIDER_MODULES = ['coding_calendar.spiders']
 NEWSPIDER_MODULE = 'coding_calendar.spiders'
+# LOG_LEVEL = 'INFO'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

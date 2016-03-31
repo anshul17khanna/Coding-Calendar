@@ -7,7 +7,10 @@
 
 import scrapy
 
-class DmozItem(scrapy.Item):
-    title = scrapy.Field()
+class coding_calendarItem(scrapy.Item):
+    codename = scrapy.Field()
+    name = scrapy.Field()
+    st = scrapy.Field()
+    et = scrapy.Field()
     link = scrapy.Field()
-    desc = scrapy.Field()
+    dur = scrapy.Field()
